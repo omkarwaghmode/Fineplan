@@ -1,0 +1,9 @@
+.navbar {
+  background-color: #ffffff;
+  color: rgb(36, 237, 17);
+  font-family: "Tapestry", cursive;
+  font-size: x-large;
+}
+.navbar-light .navbar-brand {
+  color: rgba(28, 210, 43, 0.9);
+}

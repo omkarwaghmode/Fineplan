@@ -1,0 +1,41 @@
+.container img {
+  margin-top: 2px;
+  margin-bottom: 5%;
+  width: 30%;
+  -webkit-animation: mover 3s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  150% {
+    transform: translateY(-70px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
+}
+.card-body {
+  height: fit-content;
+}
+.btn-primary {
+  margin-left: auto;
+  background-color: rgb(218, 212, 36);
+  width: 35%;
+  border-radius: 25%;
+  /* border-radius: 3ex; */
+}
+.card-text {
+  color: #d0a4a8;
+  font-size: larger;
+}
+/*
+.container {
+  height: 600px;
+} */
